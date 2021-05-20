@@ -10,7 +10,7 @@ public class No_0015_threeSum {
     private static int[] nums = {-1,0,1,2,-1,-4};
     /**********************/
 
-    public static List<List<Integer>> threeSum(int[] nums) {
+    public List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
         Arrays.sort(nums);
         for(int i = 0; i < nums.length; i++){
@@ -51,8 +51,8 @@ public class No_0015_threeSum {
     }
 
     public static void main(String[] args) {
-        List<List<Integer>> result = threeSum(nums);
-        System.out.println(Arrays.toString(new List[]{result}));
+        List<List<Integer>> result = new No_0015_threeSum().threeSum(nums);
+        System.out.println(result);
     }
 
 }

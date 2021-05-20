@@ -10,7 +10,7 @@ public class No_0001_twoSum {
     private static int target = 9;
     /**********************/
 
-    public static int[] twoSum(int[] nums, int target) {
+    public int[] twoSum(int[] nums, int target) {
         HashMap<Integer,Integer> map = new HashMap<>();
         for(int i = 0; i < nums.length; i++){
             if(map.containsKey(nums[i])){
@@ -22,7 +22,7 @@ public class No_0001_twoSum {
     }
 
     public static void main(String[] args) {
-        int[] result = twoSum(nums,target);
+        int[] result = new No_0001_twoSum().twoSum(nums,target);
         System.out.println(Arrays.toString(result));
     }
 
