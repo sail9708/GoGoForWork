@@ -1,17 +1,18 @@
 package LeetCode.Problems;
+import LeetCode.DataStructure.ListNode;
 
 public class No_0019_removeNthFromEnd {
 
     /*****test case********/
-    private static LeetCode.DataStructure.ListNode head = new LeetCode.DataStructure.ListNode(1, new LeetCode.DataStructure.ListNode(2, new LeetCode.DataStructure.ListNode(3, new LeetCode.DataStructure.ListNode(4, new LeetCode.DataStructure.ListNode(5)))));
+    private static ListNode head = new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(4, new ListNode(5)))));
     private static int n = 2;
     /**********************/
 
-    public LeetCode.DataStructure.ListNode removeNthFromEnd(LeetCode.DataStructure.ListNode head, int n) {
-        LeetCode.DataStructure.ListNode beforehead = new LeetCode.DataStructure.ListNode(-1, head);
+    public ListNode removeNthFromEnd(ListNode head, int n) {
+        ListNode beforehead = new ListNode(-1, head);
         //定义两个指针
-        LeetCode.DataStructure.ListNode fast = beforehead;
-        LeetCode.DataStructure.ListNode slow = beforehead;
+        ListNode fast = beforehead;
+        ListNode slow = beforehead;
         //先让fast指针移动n+1步
         for(int i = 0; i <= n; i++) {
             fast = fast.next;
@@ -27,7 +28,7 @@ public class No_0019_removeNthFromEnd {
     }
 
     public static void main(String[] args) {
-        LeetCode.DataStructure.ListNode result = new No_0019_removeNthFromEnd().removeNthFromEnd(head, n);
+        ListNode result = new No_0019_removeNthFromEnd().removeNthFromEnd(head, n);
         while (result!=null){
             System.out.print(result.val+" ");
             result=result.next;
