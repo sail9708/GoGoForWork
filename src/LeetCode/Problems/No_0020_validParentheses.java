@@ -1,6 +1,4 @@
-package LeetCode;
-
-import org.jetbrains.annotations.NotNull;
+package LeetCode.Problems;
 
 import java.util.Deque;
 import java.util.LinkedList;

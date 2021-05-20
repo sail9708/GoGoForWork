@@ -1,7 +1,6 @@
-package LeetCode;
+package LeetCode.Problems;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class No_0017_letterCombinations {
