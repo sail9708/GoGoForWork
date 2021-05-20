@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class _15_threeSum {
+public class No_0015_threeSum {
 
     /*****test case********/
     private static int[] nums = {-1,0,1,2,-1,-4};
