@@ -52,41 +52,79 @@
   
 package leetcode.problems.leetcode.editor.cn;
 public class No_37_SudokuSolver{
+
+    //testcase
+    private static char[][] testcase = {{'5','3','.','.','7','.','.','.','.'},
+            {'6','.','.','1','9','5','.','.','.'},
+            {'.','9','8','.','.','.','.','6','.'},
+            {'8','.','.','.','6','.','.','.','3'},
+            {'4','.','.','8','.','3','.','.','1'},
+            {'7','.','.','.','2','.','.','.','6'},
+            {'.','6','.','.','.','.','2','8','.'},
+            {'.','.','.','4','1','9','.','.','5'},
+            {'.','.','.','.','8','.','.','7','9'}};
+
     public static void main(String[] args) {
        Solution solution = new No_37_SudokuSolver().new Solution();
+       solution.solveSudoku(testcase);
     }
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
 
-    int row = 0;
-    int col = 0;
-
     public void solveSudoku(char[][] board) {
-
+        backtrack(board);
     }
 
     //回溯函数
-    public boolean huisu(char[][] board){
-        if(board[row][col] != '.') {
-            if (col < 7) {
-                col++;
-                huisu(board);
-            } else if (row < 7) {
-                col = 0;
-                row++;
-                huisu(board);
-            } else {
-                return true;
+    public boolean backtrack(char[][] board){
+        //遍历棋盘
+        for (int i = 0; i < 9; i++){
+            for (int j = 0; j < 9; j++){
+                //如果该处已有数字，跳过
+                if (board[i][j] != '.'){
+                    continue;
+                }
+                for (char k = '1'; k<='9'; k++){
+                    if (isValid(i,j,k,board)){
+                        board[i][j] = k;
+                        if (backtrack(board)){
+                            return true;
+                        }
+                        board[i][j] = '.';
+                    }
+                }
+                return false;
             }
         }
-        //保证每行数字不同
-        for(int i = 1; i <= 9; i++){
-            for (int j = 0; j < 9; j++){
-                if (board[row][col] == '0'+i){
+        return true;
+    }
 
+    //验证输入是否合法
+    public boolean isValid(int row, int col, char val, char[][] board){
+        //检查同行是否重复
+        for (int i = 0; i < 9; i++){
+            if (board[row][i] == val){
+                return false;
+            }
+        }
+        //检查同列是否重复
+        for (int i = 0; i < 9; i++){
+            if (board[i][col] == val){
+                return false;
+            }
+        }
+        //检查所属3*3方格内是否重复
+        int rowStart = (row/3)*3;
+        int colStart = (col/3)*3;
+        for (int i = 0; i < 3; i++){
+            for (int j = 0; j < 3; j++){
+                if (board[rowStart+i][colStart+j] == val){
+                    return false;
                 }
             }
         }
+        //全部检查完毕，合法返回true
+        return true;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
