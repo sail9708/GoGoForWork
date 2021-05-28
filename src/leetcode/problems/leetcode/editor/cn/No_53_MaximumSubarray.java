@@ -62,7 +62,7 @@ public class No_53_MaximumSubarray{
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int maxSubArray(int[] nums) {
-        int result = 0;
+        int result = Integer.MIN_VALUE;
         int count = 0;
 
         for (int i = 0; i < nums.length; i++){
