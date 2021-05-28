@@ -46,7 +46,8 @@ import java.util.List;
 public class No_51_NQueens{
     public static void main(String[] args) {
        Solution solution = new No_51_NQueens().new Solution();
-       solution.solveNQueens(4);
+
+        System.out.println(solution.solveNQueens(10));
     }
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
