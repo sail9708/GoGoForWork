@@ -53,23 +53,42 @@ package leetcode.problems.leetcode.editor.cn;
 public class No_62_UniquePaths{
     public static void main(String[] args) {
        Solution solution = new No_62_UniquePaths().new Solution();
-       solution.uniquePaths(4,4);
+       solution.uniquePaths(3,7);
     }
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
+/*******     排列组合方法    ********/
+//    public int uniquePaths(int m, int n) {
+//        long numerator = 1; // 分子
+//        int denominator = m - 1; // 分母
+//        int count = m - 1;
+//        int t = m + n - 2;
+//        for (; count>0;count--) {
+//            numerator *= (t--);
+//            while (denominator != 0 && numerator % denominator == 0) {
+//                numerator /= denominator;
+//                denominator--;
+//            }
+//        }
+//        return (int)numerator;
+//    }
+/*******     动态规划方法    ********/
     public int uniquePaths(int m, int n) {
-        long numerator = 1; // 分子
-        int denominator = m - 1; // 分母
-        int count = m - 1;
-        int t = m + n - 2;
-        for (; count>0;count--) {
-            numerator *= (t--);
-            while (denominator != 0 && numerator % denominator == 0) {
-                numerator /= denominator;
-                denominator--;
+        //建立dp数组
+        int[][] dp =  new int[n][m];
+        //初始化dp数组
+        for (int j = 0;j<m; j++){
+            dp[0][j] = 1;
+        }
+        for (int i = 0;i<n; i++){
+            dp[i][0] = 1;
+        }
+        for (int i = 1; i<n;i++){
+            for (int j = 1; j < m; j++){
+                dp[i][j] = dp[i-1][j]+dp[i][j-1];
             }
         }
-        return (int)numerator;
+        return dp[n-1][m-1];
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
