@@ -65,12 +65,11 @@ class Solution {
             temp.push(nums[i]);
             if (temp.size()<k){
                 backtrack(n,k,nums,i+1);
-                temp.pop();
             }
             else {
                 res.add(new ArrayList<>(temp));
-                temp.pop();
             }
+            temp.pop();
         }
     }
 }
