@@ -39,8 +39,11 @@ public class No_42_TrappingRainWater{
     }
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
-    public int trap(int[] height) {
+
         //本题解法：双指针法
+
+    public int trap(int[] height) {
+
         if (height.length == 0){
             return 0;
         }
