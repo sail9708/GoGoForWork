@@ -3,6 +3,14 @@
   <component name="LeetcodeEditor">
     <option name="projectConfig">
       <map>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/No_33_SearchInRotatedSortedArray.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/No_33_SearchInRotatedSortedArray.java" />
+              <option name="questionId" value="33" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/LeetCode/Problems/leetcode/editor/cn/RemoveElement .java">
           <value>
             <LeetcodeEditor>
@@ -232,6 +240,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_28_ImplementStrstr.java" />
               <option name="questionId" value="28" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_33_SearchInRotatedSortedArray.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_33_SearchInRotatedSortedArray.java" />
+              <option name="questionId" value="33" />
             </LeetcodeEditor>
           </value>
         </entry>
