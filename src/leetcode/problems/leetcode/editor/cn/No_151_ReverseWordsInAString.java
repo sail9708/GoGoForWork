@@ -83,11 +83,47 @@ import java.util.LinkedList;
 public class No_151_ReverseWordsInAString{
     public static void main(String[] args) {
        Solution solution = new No_151_ReverseWordsInAString().new Solution();
-       solution.reverseWords("the sky is blue");
+       solution.reverseWords("a good   example");
     }
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
+
+    /**
+     *  优化代码
+     *		执行耗时:15 ms,击败了10.00% 的Java用户
+     * 		内存消耗:38.9 MB,击败了13.46% 的Java用户
+     */
     public String reverseWords(String s) {
+        //去除首尾空格
+        int left = 0;
+        int right = s.length()-1;
+        while (s.charAt(left) == ' '){
+            left++;
+        }
+        while (s.charAt(right) == ' '){
+            right--;
+        }
+        s = s.substring(left, right+1);
+        //去除中间冗余空格
+        for (left = 0, right=1; right<s.length(); ){
+            if (s.charAt(left) == ' '){
+                if (s.charAt(right) == ' '){
+                    right++;
+                    continue;
+                }
+                else {
+                    if (right-left==1){
+                        left = right++;
+                    }else {
+                        s = s.substring(0, left)+s.substring(right-1,s.length());
+                        right = left+1;
+                    }
+                    continue;
+                }
+            }
+            left++;
+            right++;
+        }
         Deque<String> stack = new LinkedList<>();
         for (int start = 0, end = 0; end <= s.length(); end++){
             if (end == s.length()){
@@ -101,6 +137,58 @@ class Solution {
         String res = "";
         while (!stack.isEmpty()){
             res+=stack.pop();
+        }
+        return res;
+    }
+
+    /**
+     *  初见代码
+     *  		解答成功:
+     * 		执行耗时:14 ms,击败了13.00% 的Java用户
+     * 		内存消耗:38.9 MB,击败了12.78% 的Java用户
+     */
+    public String reverseWords_firstSee(String s) {
+        Deque<String> stack = new LinkedList<>();
+        int start = 0, end = 0;
+        for (; end <= s.length(); end++){
+            //先找到第一个不为空格的字符位置
+            if ( s.charAt(end) == ' '){
+                continue;
+            }
+            start = end;
+            break;
+        }
+        for (end = end+1; end < s.length(); end++){
+            //当遇到第一个空格字符时，说明一个单词已经遍历完，把它入栈，并入栈一个空格。(连续的空格会被跳过)
+            if (s.charAt(end) == ' ' && s.charAt(end - 1)!=' '){
+                stack.push(s.substring(start,end));
+                stack.push(" ");
+            }
+            //当再碰到第一不为空格的字符时，说明已经到了下一个字符串的位置，修改start的位置
+            else if (s.charAt(end)!=' ' && s.charAt(end-1) == ' '){
+                start = end;
+                //如果已经是最后一个字符了，则说明这个字符就是一个单独的字符串，把它入栈
+                if (end == s.length()-1){
+                    stack.push(s.substring(start,end+1));
+                }
+            }
+            //如果已经是最后一个字符了,且其不是空格，则把该字符串入栈。（防止结尾有多个空格的情况）
+            else if (end == s.length()-1 && s.charAt(end)!=' '){
+                stack.push(s.substring(start,end+1));
+            }
+        }
+        String res = "";
+        boolean flag = false;
+        while (!stack.isEmpty()){
+            while (!flag){
+                if (stack.peek().equals(" ")){
+                    stack.pop();
+                }
+                else {
+                    flag = true;
+                }
+            }
+            res += stack.pop();
         }
         return res;
     }
