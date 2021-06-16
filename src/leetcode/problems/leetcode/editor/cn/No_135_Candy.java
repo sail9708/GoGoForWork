@@ -41,6 +41,13 @@ public class No_135_Candy{
     }
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
+    /**
+     * 			解答成功:
+     * 			执行耗时:2 ms,击败了100.00% 的Java用户
+     * 			内存消耗:39.4 MB,击败了67.17% 的Java用户
+     * @param ratings
+     * @return
+     */
     public int candy(int[] ratings) {
         int len = ratings.length;;
         int[] candyRes = new int[len];
