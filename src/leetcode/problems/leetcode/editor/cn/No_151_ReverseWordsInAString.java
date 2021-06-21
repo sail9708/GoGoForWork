@@ -89,11 +89,70 @@ public class No_151_ReverseWordsInAString{
 class Solution {
 
     /**
+    三步骤：1.去除多余的空格
+           2.反转或逆序整个大字符串
+           3.反转每个小字符串，最后一个小字符串单独拿出来反转
+    */
+    public String reverseWords(String s) {
+        if(s == null){
+            return "";
+        }
+        char[] chars = s.toCharArray();
+        int len = 0;    //记录有效长度
+        int cur = 0;    //去除空格后，正确存放字符的地方
+        boolean space = true;   //i前一个位置是否是空格
+        for(int i = 0; i < chars.length; i++){
+            //如果不等于空格，直接移动
+            if(chars[i] != ' '){
+                chars[cur++] = chars[i];
+                space = false;  //更新space
+            }else if(space == false){
+                //代码执行到这里，说明i遇到了空格，我们只要第一个空格，其他都不要
+                //false相当于i前一个位置是字母，不是空格
+                chars[cur++] = ' ';
+                space = true;   //更新space
+            }
+        }
+        //这里是为了去除最末尾的空格，space为true，说明i前一个位置有空格
+        //此时的i == chars.length，所以-1可以去除末尾的空格
+        len = space ? (cur - 1) : cur;
+        //反转整个字符串
+        reverse(chars,0,len);
+        //记录前一个空格的位置，这里-1是哨兵作用，就是-1位置这里肯定是空格
+        int preSpaceIdx = -1;
+        for(int i = 0; i < len; i++){
+            if(chars[i] != ' '){
+                continue;
+            }
+            //遇到是空格，说明前面就是一个完整的小字符串
+            reverse(chars,preSpaceIdx + 1,i);
+            preSpaceIdx = i;    //因为此时i是空格，更新
+        }
+        //最后一个小字符串单独反转
+        reverse(chars,preSpaceIdx + 1,len);
+        //在chars，0到len范围的字符串
+        return new String(chars,0,len);
+    }
+
+    //反转整个字符串，实际上是不断交换li和ri的位置
+    //范围是[li,ri)
+    private void reverse(char[] chars,int li,int ri){
+        ri--;
+        while(li < ri){
+            char temp = chars[li];
+            chars[li] = chars[ri];
+            chars[ri] = temp;
+            li++;
+            ri--;
+        }
+    }
+
+    /**
      *  优化代码
      *		执行耗时:15 ms,击败了10.00% 的Java用户
      * 		内存消耗:38.9 MB,击败了13.46% 的Java用户
      */
-    public String reverseWords(String s) {
+    public String reverseWords_2(String s) {
         //去除首尾空格
         int left = 0;
         int right = s.length()-1;
