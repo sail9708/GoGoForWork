@@ -37,7 +37,10 @@ public class No_216_CombinationSumIii{
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     /**
-     * 初见思路：回溯法（暴力）
+     * 初见思路：回溯法（暴力）   没有剪枝，可优化
+     * 			解答成功:
+     * 			执行耗时:0 ms,击败了100.00% 的Java用户
+     * 			内存消耗:36.2 MB,击败了21.76% 的Java用户
      * @param k
      * @param n
      * @return
