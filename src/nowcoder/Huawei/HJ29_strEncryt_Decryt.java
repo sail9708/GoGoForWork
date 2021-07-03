@@ -4,7 +4,11 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class HJ28_strEncryt_Decryt {
+/**
+ * https://www.nowcoder.com/practice/2aa32b378a024755a3f251e75cbf233a?tpId=37&tags=&title=&difficulty=0&judgeStatus=0&rp=1
+ */
+
+public class HJ29_strEncryt_Decryt {
     public static void main(String[] args) throws IOException {
         BufferedReader bf  = new BufferedReader(new InputStreamReader(System.in));
         String input;

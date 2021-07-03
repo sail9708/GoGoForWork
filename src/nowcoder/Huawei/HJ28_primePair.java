@@ -12,7 +12,7 @@ import java.util.List;
  * 本题重点：匈牙利算法
  */
 
-public class primePair {
+public class HJ28_primePair {
     public static void main(String[] args) throws IOException {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
         String input;
