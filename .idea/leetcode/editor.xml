@@ -347,6 +347,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_214_ShortestPalindrome.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_214_ShortestPalindrome.java" />
+              <option name="questionId" value="214" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_216_CombinationSumIii.java">
           <value>
             <LeetcodeEditor>
@@ -667,6 +675,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_918_MaximumSumCircularSubarray.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_918_MaximumSumCircularSubarray.java" />
+              <option name="questionId" value="954" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_93_RestoreIpAddresses.java">
           <value>
             <LeetcodeEditor>
@@ -696,6 +712,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_99_RecoverBinarySearchTree.java" />
               <option name="questionId" value="99" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_剑指 Offer 53 - I_ZaiPaiXuShuZuZhongChaZhaoShuZiLcof.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_剑指 Offer 53 - I_ZaiPaiXuShuZuZhongChaZhaoShuZiLcof.java" />
+              <option name="questionId" value="100329" />
             </LeetcodeEditor>
           </value>
         </entry>
