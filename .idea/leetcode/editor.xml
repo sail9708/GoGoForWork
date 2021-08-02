@@ -251,6 +251,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_1713_MinimumOperationsToMakeASubsequence.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_1713_MinimumOperationsToMakeASubsequence.java" />
+              <option name="questionId" value="1832" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_17_LetterCombinationsOfAPhoneNumber.java">
           <value>
             <LeetcodeEditor>
@@ -280,6 +288,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_18_FourSum.java" />
               <option name="questionId" value="18" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_1953_MaximumNumberOfWeeksForWhichYouCanWork.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_1953_MaximumNumberOfWeeksForWhichYouCanWork.java" />
+              <option name="questionId" value="2084" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -704,6 +720,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_78_Subsets.java" />
               <option name="questionId" value="78" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_863_AllNodesDistanceKInBinaryTree.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_863_AllNodesDistanceKInBinaryTree.java" />
+              <option name="questionId" value="893" />
             </LeetcodeEditor>
           </value>
         </entry>
