@@ -87,7 +87,7 @@ class Solution {
         int[] dis = new int[n+1];
         for (int i = 1; i <= n; i++){
             dis[i] = graph[k][i];
-        }124
+        }
         used[k] = true;
         int mark = k;
         for (int i =0; i < n; i++){
