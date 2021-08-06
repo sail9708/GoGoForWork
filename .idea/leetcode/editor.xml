@@ -291,6 +291,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_1893_CheckIfAllTheIntegersInARangeAreCovered.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_1893_CheckIfAllTheIntegersInARangeAreCovered.java" />
+              <option name="questionId" value="2005" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_18_FourSum.java">
           <value>
             <LeetcodeEditor>
@@ -576,6 +584,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_44_WildcardMatching.java" />
               <option name="questionId" value="44" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_457_CircularArrayLoop.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_457_CircularArrayLoop.java" />
+              <option name="questionId" value="457" />
             </LeetcodeEditor>
           </value>
         </entry>
