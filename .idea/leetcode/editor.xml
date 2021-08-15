@@ -243,6 +243,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_1583_CountUnhappyFriends.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_1583_CountUnhappyFriends.java" />
+              <option name="questionId" value="1705" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_15_ThreeSum.java">
           <value>
             <LeetcodeEditor>
@@ -659,6 +667,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_526_BeautifulArrangement.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_526_BeautifulArrangement.java" />
+              <option name="questionId" value="526" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_52_NQueensIi.java">
           <value>
             <LeetcodeEditor>
@@ -688,6 +704,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_56_MergeIntervals.java" />
               <option name="questionId" value="56" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_576_OutOfBoundaryPaths.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_576_OutOfBoundaryPaths.java" />
+              <option name="questionId" value="576" />
             </LeetcodeEditor>
           </value>
         </entry>
