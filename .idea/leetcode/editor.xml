@@ -171,6 +171,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_124_BinaryTreeMaximumPathSum.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_124_BinaryTreeMaximumPathSum.java" />
+              <option name="questionId" value="124" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_131_PalindromePartitioning.java">
           <value>
             <LeetcodeEditor>
@@ -235,6 +243,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_1583_CountUnhappyFriends.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_1583_CountUnhappyFriends.java" />
+              <option name="questionId" value="1705" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_15_ThreeSum.java">
           <value>
             <LeetcodeEditor>
@@ -280,6 +296,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_188_BestTimeToBuyAndSellStockIv.java" />
               <option name="questionId" value="188" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_1893_CheckIfAllTheIntegersInARangeAreCovered.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_1893_CheckIfAllTheIntegersInARangeAreCovered.java" />
+              <option name="questionId" value="2005" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -507,6 +531,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_313_SuperUglyNumber.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_313_SuperUglyNumber.java" />
+              <option name="questionId" value="313" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_33_SearchInRotatedSortedArray.java">
           <value>
             <LeetcodeEditor>
@@ -555,6 +587,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_413_ArithmeticSlices.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_413_ArithmeticSlices.java" />
+              <option name="questionId" value="413" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_42_TrappingRainWater.java">
           <value>
             <LeetcodeEditor>
@@ -563,11 +603,27 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_446_ArithmeticSlicesIiSubsequence.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_446_ArithmeticSlicesIiSubsequence.java" />
+              <option name="questionId" value="446" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_44_WildcardMatching.java">
           <value>
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_44_WildcardMatching.java" />
               <option name="questionId" value="44" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_457_CircularArrayLoop.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_457_CircularArrayLoop.java" />
+              <option name="questionId" value="457" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -611,6 +667,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_526_BeautifulArrangement.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_526_BeautifulArrangement.java" />
+              <option name="questionId" value="526" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_52_NQueensIi.java">
           <value>
             <LeetcodeEditor>
@@ -624,6 +688,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_53_MaximumSubarray.java" />
               <option name="questionId" value="53" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_551_StudentAttendanceRecordI.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_551_StudentAttendanceRecordI.java" />
+              <option name="questionId" value="551" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -643,11 +715,35 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_576_OutOfBoundaryPaths.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_576_OutOfBoundaryPaths.java" />
+              <option name="questionId" value="576" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_581_ShortestUnsortedContinuousSubarray.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_581_ShortestUnsortedContinuousSubarray.java" />
+              <option name="questionId" value="581" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_59_SpiralMatrixIi.java">
           <value>
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_59_SpiralMatrixIi.java" />
               <option name="questionId" value="59" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_611_ValidTriangleNumber.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_611_ValidTriangleNumber.java" />
+              <option name="questionId" value="611" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -720,6 +816,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_78_Subsets.java" />
               <option name="questionId" value="78" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_802_FindEventualSafeStates.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_802_FindEventualSafeStates.java" />
+              <option name="questionId" value="820" />
             </LeetcodeEditor>
           </value>
         </entry>

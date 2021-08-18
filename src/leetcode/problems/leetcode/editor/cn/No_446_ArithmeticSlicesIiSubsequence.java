@@ -49,21 +49,48 @@
 // -231 <= nums[i] <= 231 - 1 
 // 
 // Related Topics 数组 动态规划 
-// 👍 132 👎 0
+// 👍 131 👎 0
 
 
 package leetcode.problems.leetcode.editor.cn;
 
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+
 public class No_446_ArithmeticSlicesIiSubsequence {
     public static void main(String[] args) {
         Solution solution = new No_446_ArithmeticSlicesIiSubsequence().new Solution();
+        solution.numberOfArithmeticSlices(new int[]{2, 4, 6, 8, 10});
     }
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
+        /**
+         * 动态规划：nums[i]结尾的等差序列，是nums[j]结尾的公差和nums[i]-nums[j]相等的等差序列的个数
+         */
         public int numberOfArithmeticSlices(int[] nums) {
-            return 0;
+            int res = 0;
+            int len = nums.length;
+            if (len < 3) {
+                return 0;
+            }
+            Map<Long, Integer>[] map = new Map[len];
+            for (int i = 0; i < len; i++) {
+                map[i] = new HashMap<>();
+            }
+            for (int i = 0; i < len; i++) {
+                for (int j = 0; j < i; j++) {
+                    long diff = (long) nums[i] - nums[j];
+                    int cnt = map[j].getOrDefault(diff, 0);
+                    res += cnt;
+                    //此处cnt+1，是因为实际map存储的包括二元的弱等差序列，所以此时要加上nums[i]和nums[j]组成的弱等差序列，所以药+1
+                    map[i].put(diff, map[i].getOrDefault(diff, 0) + cnt + 1);
+                }
+            }
+            return res;
         }
+
     }
 //leetcode submit region end(Prohibit modification and deletion)
 
