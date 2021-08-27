@@ -259,6 +259,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_1646_GetMaximumInGeneratedArray.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_1646_GetMaximumInGeneratedArray.java" />
+              <option name="questionId" value="1769" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_164_MaximumGap.java">
           <value>
             <LeetcodeEditor>
@@ -523,14 +531,6 @@
             </LeetcodeEditor>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_295_FindMedianFromDataStream.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_295_FindMedianFromDataStream.java" />
-              <option name="questionId" value="295" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
         <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_300_LongestIncreasingSubsequence.java">
           <value>
             <LeetcodeEditor>
@@ -619,6 +619,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_443_StringCompression.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_443_StringCompression.java" />
+              <option name="questionId" value="443" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_446_ArithmeticSlicesIiSubsequence.java">
           <value>
             <LeetcodeEditor>
@@ -704,6 +712,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_53_MaximumSubarray.java" />
               <option name="questionId" value="53" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_541_ReverseStringIi.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_541_ReverseStringIi.java" />
+              <option name="questionId" value="541" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -835,11 +851,12 @@
             </LeetcodeEditor>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_789_EscapeTheGhosts.java">
+        <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_787_CheapestFlightsWithinKStops.java">
           <value>
             <LeetcodeEditor>
-              <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_789_EscapeTheGhosts.java" />
-              <option name="questionId" value="805" />
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/doc/content/No_787_CheapestFlightsWithinKStops.md" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_787_CheapestFlightsWithinKStops.java" />
+              <option name="questionId" value="803" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -864,6 +881,15 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_863_AllNodesDistanceKInBinaryTree.java" />
               <option name="questionId" value="893" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_881_BoatsToSavePeople.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/doc/content/No_881_BoatsToSavePeople.md" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_881_BoatsToSavePeople.java" />
+              <option name="questionId" value="917" />
             </LeetcodeEditor>
           </value>
         </entry>
