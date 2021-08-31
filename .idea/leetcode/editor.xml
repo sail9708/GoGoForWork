@@ -107,6 +107,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_1109_CorporateFlightBookings.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_1109_CorporateFlightBookings.java" />
+              <option name="questionId" value="1206" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_110_BalancedBinaryTree.java">
           <value>
             <LeetcodeEditor>
@@ -539,6 +547,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_304_RangeSumQuery2dImmutable.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_304_RangeSumQuery2dImmutable.java" />
+              <option name="questionId" value="304" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_313_SuperUglyNumber.java">
           <value>
             <LeetcodeEditor>
@@ -854,7 +870,6 @@
         <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_787_CheapestFlightsWithinKStops.java">
           <value>
             <LeetcodeEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/doc/content/No_787_CheapestFlightsWithinKStops.md" />
               <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_787_CheapestFlightsWithinKStops.java" />
               <option name="questionId" value="803" />
             </LeetcodeEditor>
@@ -887,7 +902,6 @@
         <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_881_BoatsToSavePeople.java">
           <value>
             <LeetcodeEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/doc/content/No_881_BoatsToSavePeople.md" />
               <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_881_BoatsToSavePeople.java" />
               <option name="questionId" value="917" />
             </LeetcodeEditor>
