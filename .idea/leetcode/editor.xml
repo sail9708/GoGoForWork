@@ -813,6 +813,15 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_600_NonNegativeIntegersWithoutConsecutiveOnes.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/doc/content/No_600_NonNegativeIntegersWithoutConsecutiveOnes.md" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_600_NonNegativeIntegersWithoutConsecutiveOnes.java" />
+              <option name="questionId" value="600" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_611_ValidTriangleNumber.java">
           <value>
             <LeetcodeEditor>
