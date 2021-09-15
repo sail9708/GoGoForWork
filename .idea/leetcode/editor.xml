@@ -187,6 +187,15 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_1310_XorQueriesOfASubarray.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/doc/content/No_1310_XorQueriesOfASubarray.md" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_1310_XorQueriesOfASubarray.java" />
+              <option name="questionId" value="1435" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_131_PalindromePartitioning.java">
           <value>
             <LeetcodeEditor>
@@ -288,6 +297,15 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_1713_MinimumOperationsToMakeASubsequence.java" />
               <option name="questionId" value="1832" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_1744_CanYouEatYourFavoriteCandyOnYourFavoriteDay.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/doc/content/No_1744_CanYouEatYourFavoriteCandyOnYourFavoriteDay.md" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_1744_CanYouEatYourFavoriteCandyOnYourFavoriteDay.java" />
+              <option name="questionId" value="1872" />
             </LeetcodeEditor>
           </value>
         </entry>
