@@ -187,6 +187,15 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_1310_XorQueriesOfASubarray.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/doc/content/No_1310_XorQueriesOfASubarray.md" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_1310_XorQueriesOfASubarray.java" />
+              <option name="questionId" value="1435" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_131_PalindromePartitioning.java">
           <value>
             <LeetcodeEditor>
@@ -288,6 +297,15 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_1713_MinimumOperationsToMakeASubsequence.java" />
               <option name="questionId" value="1832" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_1744_CanYouEatYourFavoriteCandyOnYourFavoriteDay.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/doc/content/No_1744_CanYouEatYourFavoriteCandyOnYourFavoriteDay.md" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_1744_CanYouEatYourFavoriteCandyOnYourFavoriteDay.java" />
+              <option name="questionId" value="1872" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -515,6 +533,15 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_25_ReverseNodesInKGroup.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/doc/content/No_25_ReverseNodesInKGroup.md" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_25_ReverseNodesInKGroup.java" />
+              <option name="questionId" value="25" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_279_PerfectSquares.java">
           <value>
             <LeetcodeEditor>
@@ -561,6 +588,15 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_304_RangeSumQuery2dImmutable.java" />
               <option name="questionId" value="304" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_30_SubstringWithConcatenationOfAllWords.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/doc/content/No_30_SubstringWithConcatenationOfAllWords.md" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_30_SubstringWithConcatenationOfAllWords.java" />
+              <option name="questionId" value="30" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -645,6 +681,15 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_41_FirstMissingPositive.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/doc/content/No_41_FirstMissingPositive.md" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_41_FirstMissingPositive.java" />
+              <option name="questionId" value="41" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_42_TrappingRainWater.java">
           <value>
             <LeetcodeEditor>
@@ -666,6 +711,15 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_446_ArithmeticSlicesIiSubsequence.java" />
               <option name="questionId" value="446" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_447_NumberOfBoomerangs.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/doc/content/No_447_NumberOfBoomerangs.md" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_447_NumberOfBoomerangs.java" />
+              <option name="questionId" value="447" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -822,12 +876,12 @@
             </LeetcodeEditor>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_600_NonNegativeIntegersWithoutConsecutiveOnes.java">
+        <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_60_PermutationSequence.java">
           <value>
             <LeetcodeEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/doc/content/No_600_NonNegativeIntegersWithoutConsecutiveOnes.md" />
-              <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_600_NonNegativeIntegersWithoutConsecutiveOnes.java" />
-              <option name="questionId" value="600" />
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/doc/content/No_60_PermutationSequence.md" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_60_PermutationSequence.java" />
+              <option name="questionId" value="60" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -852,6 +906,33 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_63_UniquePathsIi.java" />
               <option name="questionId" value="63" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_65_ValidNumber.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/doc/content/No_65_ValidNumber.md" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_65_ValidNumber.java" />
+              <option name="questionId" value="65" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_678_ValidParenthesisString.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/doc/content/No_678_ValidParenthesisString.md" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_678_ValidParenthesisString.java" />
+              <option name="questionId" value="678" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_68_TextJustification.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/doc/content/No_68_TextJustification.md" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_68_TextJustification.java" />
+              <option name="questionId" value="68" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -884,6 +965,15 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_743_NetworkDelayTime.java" />
               <option name="questionId" value="744" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_76_MinimumWindowSubstring.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/doc/content/No_76_MinimumWindowSubstring.md" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_76_MinimumWindowSubstring.java" />
+              <option name="questionId" value="76" />
             </LeetcodeEditor>
           </value>
         </entry>
