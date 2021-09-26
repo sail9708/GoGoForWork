@@ -968,6 +968,15 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_639_DecodeWaysIi.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/doc/content/No_639_DecodeWaysIi.md" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_639_DecodeWaysIi.java" />
+              <option name="questionId" value="639" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_63_UniquePathsIi.java">
           <value>
             <LeetcodeEditor>
