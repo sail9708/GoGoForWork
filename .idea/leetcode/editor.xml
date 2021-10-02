@@ -693,6 +693,15 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_405_ConvertANumberToHexadecimal.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/doc/content/No_405_ConvertANumberToHexadecimal.md" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_405_ConvertANumberToHexadecimal.java" />
+              <option name="questionId" value="405" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_40_CombinationSumIi.java">
           <value>
             <LeetcodeEditor>
