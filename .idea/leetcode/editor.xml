@@ -292,6 +292,15 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_166_FractionToRecurringDecimal.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/doc/content/No_166_FractionToRecurringDecimal.md" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_166_FractionToRecurringDecimal.java" />
+              <option name="questionId" value="166" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/leetcode/problems/leetcode/editor/cn/No_16_ThreeSumClosest.java">
           <value>
             <LeetcodeEditor>
